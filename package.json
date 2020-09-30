@@ -56,7 +56,7 @@
     "ra-ui-materialui": "^3.8.5",
     "react": "^16.13.1",
     "react-admin": "^3.9.0-beta.2",
-    "react-admin-import-csv": "^1.0.1",
+    "react-admin-import-csv": "^0.2.19",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {

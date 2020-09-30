@@ -3,12 +3,11 @@ import { Admin, Resource } from 'react-admin';
 // import fakeDataProvider from 'ra-data-fakerest';
 // import { PostList, PostShow, PostEdit, PostCreate } from './posts';
 import indigo from '@material-ui/core/colors/grey';
-import UserIcon from '@material-ui/icons/Group';
 import { createMuiTheme } from '@material-ui/core/styles';
 import crudProvider from 'ra-data-nestjsx-crud';
 import TableLayout from './Layouts/tableLayout';
 import authProvider from './authProvider';
-import { UserList, UserEdit } from './routes/Users';
+import configs from './routes/configs';
 
 export interface AppProps {}
 
@@ -28,7 +27,7 @@ const App: FC<AppProps> = (_props: AppProps) => (
     dataProvider={dataProvider}
     authProvider={authProvider}
   >
-    <Resource name="config" list={UserList} icon={UserIcon} edit={UserEdit} />
+    <Resource name="config" {...configs} />
   </Admin>
 );
 
