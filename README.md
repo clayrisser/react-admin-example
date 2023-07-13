@@ -4,6 +4,8 @@
 
 > react admin example
 
+![](assets/reaact-admin-example.png)
+
 Please ★ this repo if you found it useful ★ ★ ★
 
 ## Dependencies
