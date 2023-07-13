@@ -4,7 +4,7 @@
 
 > react admin example
 
-![](assets/reaact-admin-example.png)
+![](assets/react-admin-example.png)
 
 Please ★ this repo if you found it useful ★ ★ ★
 
